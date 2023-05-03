@@ -9,7 +9,7 @@ class Notebook(Computador):
     def getInformacoes(self):
         return super().getInformacoes() + f"\nTempoDeBateria: {self.__tempoDeBateria}"
 
-    def cadastrar():
+    def cadastrar(self):
         print("Cadastrando notebook....")
 
 
